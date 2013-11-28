@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E07BEB3018445A6E007CA898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BEB2F18445A6E007CA898 /* Foundation.framework */; };
+		E07BEB3218445A6E007CA898 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BEB3118445A6E007CA898 /* CoreGraphics.framework */; };
+		E07BEB3418445A6E007CA898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BEB3318445A6E007CA898 /* UIKit.framework */; };
+		E07BEB3A18445A6E007CA898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E07BEB3818445A6E007CA898 /* InfoPlist.strings */; };
+		E07BEB3C18445A6E007CA898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E07BEB3B18445A6E007CA898 /* main.m */; };
+		E07BEB4018445A6E007CA898 /* OZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07BEB3F18445A6E007CA898 /* OZAppDelegate.m */; };
+		E07BEB4318445A6E007CA898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E07BEB4118445A6E007CA898 /* Main.storyboard */; };
+		E07BEB4618445A6E007CA898 /* OZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07BEB4518445A6E007CA898 /* OZViewController.m */; };
+		E07BEB4818445A6E007CA898 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E07BEB4718445A6E007CA898 /* Images.xcassets */; };
+		E07BEB4F18445A6E007CA898 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BEB4E18445A6E007CA898 /* XCTest.framework */; };
+		E07BEB5018445A6E007CA898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BEB2F18445A6E007CA898 /* Foundation.framework */; };
+		E07BEB5118445A6E007CA898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07BEB3318445A6E007CA898 /* UIKit.framework */; };
+		E07BEB5918445A6E007CA898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E07BEB5718445A6E007CA898 /* InfoPlist.strings */; };
+		E07BEB5B18445A6E007CA898 /* OZMarkdownLinkTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E07BEB5A18445A6E007CA898 /* OZMarkdownLinkTextViewTests.m */; };
+		E07BEB6618445ACB007CA898 /* FGMarkdownLinkTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E07BEB6518445ACB007CA898 /* FGMarkdownLinkTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E07BEB5218445A6E007CA898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E07BEB2418445A6E007CA898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07BEB2B18445A6E007CA898;
+			remoteInfo = OZMarkdownLinkTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E07BEB2C18445A6E007CA898 /* OZMarkdownLinkTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZMarkdownLinkTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07BEB2F18445A6E007CA898 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E07BEB3118445A6E007CA898 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E07BEB3318445A6E007CA898 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E07BEB3718445A6E007CA898 /* OZMarkdownLinkTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OZMarkdownLinkTextView-Info.plist"; sourceTree = "<group>"; };
+		E07BEB3918445A6E007CA898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E07BEB3B18445A6E007CA898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E07BEB3D18445A6E007CA898 /* OZMarkdownLinkTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OZMarkdownLinkTextView-Prefix.pch"; sourceTree = "<group>"; };
+		E07BEB3E18445A6E007CA898 /* OZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OZAppDelegate.h; sourceTree = "<group>"; };
+		E07BEB3F18445A6E007CA898 /* OZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OZAppDelegate.m; sourceTree = "<group>"; };
+		E07BEB4218445A6E007CA898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E07BEB4418445A6E007CA898 /* OZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OZViewController.h; sourceTree = "<group>"; };
+		E07BEB4518445A6E007CA898 /* OZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OZViewController.m; sourceTree = "<group>"; };
+		E07BEB4718445A6E007CA898 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E07BEB4D18445A6E007CA898 /* OZMarkdownLinkTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZMarkdownLinkTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07BEB4E18445A6E007CA898 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E07BEB5618445A6E007CA898 /* OZMarkdownLinkTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OZMarkdownLinkTextViewTests-Info.plist"; sourceTree = "<group>"; };
+		E07BEB5818445A6E007CA898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E07BEB5A18445A6E007CA898 /* OZMarkdownLinkTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OZMarkdownLinkTextViewTests.m; sourceTree = "<group>"; };
+		E07BEB6418445ACB007CA898 /* FGMarkdownLinkTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMarkdownLinkTextView.h; sourceTree = "<group>"; };
+		E07BEB6518445ACB007CA898 /* FGMarkdownLinkTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMarkdownLinkTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07BEB2918445A6E007CA898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07BEB3218445A6E007CA898 /* CoreGraphics.framework in Frameworks */,
+				E07BEB3418445A6E007CA898 /* UIKit.framework in Frameworks */,
+				E07BEB3018445A6E007CA898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07BEB4A18445A6E007CA898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07BEB4F18445A6E007CA898 /* XCTest.framework in Frameworks */,
+				E07BEB5118445A6E007CA898 /* UIKit.framework in Frameworks */,
+				E07BEB5018445A6E007CA898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E07BEB2318445A6E007CA898 = {
+			isa = PBXGroup;
+			children = (
+				E07BEB3518445A6E007CA898 /* OZMarkdownLinkTextView */,
+				E07BEB5418445A6E007CA898 /* OZMarkdownLinkTextViewTests */,
+				E07BEB2E18445A6E007CA898 /* Frameworks */,
+				E07BEB2D18445A6E007CA898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E07BEB2D18445A6E007CA898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07BEB2C18445A6E007CA898 /* OZMarkdownLinkTextView.app */,
+				E07BEB4D18445A6E007CA898 /* OZMarkdownLinkTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E07BEB2E18445A6E007CA898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E07BEB2F18445A6E007CA898 /* Foundation.framework */,
+				E07BEB3118445A6E007CA898 /* CoreGraphics.framework */,
+				E07BEB3318445A6E007CA898 /* UIKit.framework */,
+				E07BEB4E18445A6E007CA898 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07BEB3518445A6E007CA898 /* OZMarkdownLinkTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E07BEB3E18445A6E007CA898 /* OZAppDelegate.h */,
+				E07BEB3F18445A6E007CA898 /* OZAppDelegate.m */,
+				E07BEB4118445A6E007CA898 /* Main.storyboard */,
+				E07BEB4418445A6E007CA898 /* OZViewController.h */,
+				E07BEB4518445A6E007CA898 /* OZViewController.m */,
+				E07BEB4718445A6E007CA898 /* Images.xcassets */,
+				E07BEB3618445A6E007CA898 /* Supporting Files */,
+				E07BEB6418445ACB007CA898 /* FGMarkdownLinkTextView.h */,
+				E07BEB6518445ACB007CA898 /* FGMarkdownLinkTextView.m */,
+			);
+			path = OZMarkdownLinkTextView;
+			sourceTree = "<group>";
+		};
+		E07BEB3618445A6E007CA898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E07BEB3718445A6E007CA898 /* OZMarkdownLinkTextView-Info.plist */,
+				E07BEB3818445A6E007CA898 /* InfoPlist.strings */,
+				E07BEB3B18445A6E007CA898 /* main.m */,
+				E07BEB3D18445A6E007CA898 /* OZMarkdownLinkTextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E07BEB5418445A6E007CA898 /* OZMarkdownLinkTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E07BEB5A18445A6E007CA898 /* OZMarkdownLinkTextViewTests.m */,
+				E07BEB5518445A6E007CA898 /* Supporting Files */,
+			);
+			path = OZMarkdownLinkTextViewTests;
+			sourceTree = "<group>";
+		};
+		E07BEB5518445A6E007CA898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E07BEB5618445A6E007CA898 /* OZMarkdownLinkTextViewTests-Info.plist */,
+				E07BEB5718445A6E007CA898 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E07BEB2B18445A6E007CA898 /* OZMarkdownLinkTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07BEB5E18445A6E007CA898 /* Build configuration list for PBXNativeTarget "OZMarkdownLinkTextView" */;
+			buildPhases = (
+				E07BEB2818445A6E007CA898 /* Sources */,
+				E07BEB2918445A6E007CA898 /* Frameworks */,
+				E07BEB2A18445A6E007CA898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OZMarkdownLinkTextView;
+			productName = OZMarkdownLinkTextView;
+			productReference = E07BEB2C18445A6E007CA898 /* OZMarkdownLinkTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E07BEB4C18445A6E007CA898 /* OZMarkdownLinkTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07BEB6118445A6E007CA898 /* Build configuration list for PBXNativeTarget "OZMarkdownLinkTextViewTests" */;
+			buildPhases = (
+				E07BEB4918445A6E007CA898 /* Sources */,
+				E07BEB4A18445A6E007CA898 /* Frameworks */,
+				E07BEB4B18445A6E007CA898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E07BEB5318445A6E007CA898 /* PBXTargetDependency */,
+			);
+			name = OZMarkdownLinkTextViewTests;
+			productName = OZMarkdownLinkTextViewTests;
+			productReference = E07BEB4D18445A6E007CA898 /* OZMarkdownLinkTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E07BEB2418445A6E007CA898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Oozou;
+				TargetAttributes = {
+					E07BEB4C18445A6E007CA898 = {
+						TestTargetID = E07BEB2B18445A6E007CA898;
+					};
+				};
+			};
+			buildConfigurationList = E07BEB2718445A6E007CA898 /* Build configuration list for PBXProject "OZMarkdownLinkTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E07BEB2318445A6E007CA898;
+			productRefGroup = E07BEB2D18445A6E007CA898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07BEB2B18445A6E007CA898 /* OZMarkdownLinkTextView */,
+				E07BEB4C18445A6E007CA898 /* OZMarkdownLinkTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E07BEB2A18445A6E007CA898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07BEB4818445A6E007CA898 /* Images.xcassets in Resources */,
+				E07BEB3A18445A6E007CA898 /* InfoPlist.strings in Resources */,
+				E07BEB4318445A6E007CA898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07BEB4B18445A6E007CA898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07BEB5918445A6E007CA898 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07BEB2818445A6E007CA898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07BEB3C18445A6E007CA898 /* main.m in Sources */,
+				E07BEB6618445ACB007CA898 /* FGMarkdownLinkTextView.m in Sources */,
+				E07BEB4618445A6E007CA898 /* OZViewController.m in Sources */,
+				E07BEB4018445A6E007CA898 /* OZAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07BEB4918445A6E007CA898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07BEB5B18445A6E007CA898 /* OZMarkdownLinkTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E07BEB5318445A6E007CA898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07BEB2B18445A6E007CA898 /* OZMarkdownLinkTextView */;
+			targetProxy = E07BEB5218445A6E007CA898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E07BEB3818445A6E007CA898 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07BEB3918445A6E007CA898 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E07BEB4118445A6E007CA898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07BEB4218445A6E007CA898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E07BEB5718445A6E007CA898 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07BEB5818445A6E007CA898 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E07BEB5C18445A6E007CA898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E07BEB5D18445A6E007CA898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E07BEB5F18445A6E007CA898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OZMarkdownLinkTextView/OZMarkdownLinkTextView-Prefix.pch";
+				INFOPLIST_FILE = "OZMarkdownLinkTextView/OZMarkdownLinkTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E07BEB6018445A6E007CA898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OZMarkdownLinkTextView/OZMarkdownLinkTextView-Prefix.pch";
+				INFOPLIST_FILE = "OZMarkdownLinkTextView/OZMarkdownLinkTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E07BEB6218445A6E007CA898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OZMarkdownLinkTextView.app/OZMarkdownLinkTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OZMarkdownLinkTextView/OZMarkdownLinkTextView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OZMarkdownLinkTextViewTests/OZMarkdownLinkTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E07BEB6318445A6E007CA898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OZMarkdownLinkTextView.app/OZMarkdownLinkTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OZMarkdownLinkTextView/OZMarkdownLinkTextView-Prefix.pch";
+				INFOPLIST_FILE = "OZMarkdownLinkTextViewTests/OZMarkdownLinkTextViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07BEB2718445A6E007CA898 /* Build configuration list for PBXProject "OZMarkdownLinkTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07BEB5C18445A6E007CA898 /* Debug */,
+				E07BEB5D18445A6E007CA898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07BEB5E18445A6E007CA898 /* Build configuration list for PBXNativeTarget "OZMarkdownLinkTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07BEB5F18445A6E007CA898 /* Debug */,
+				E07BEB6018445A6E007CA898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07BEB6118445A6E007CA898 /* Build configuration list for PBXNativeTarget "OZMarkdownLinkTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07BEB6218445A6E007CA898 /* Debug */,
+				E07BEB6318445A6E007CA898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E07BEB2418445A6E007CA898 /* Project object */;
+}
