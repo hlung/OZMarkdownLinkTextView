@@ -126,9 +126,7 @@
     [super setAttributedText:atbs];
 
     // make link tapable
-    for (FGMarkdownLinkTextViewButton *b in buttons) {
-        [b removeFromSuperview];
-    }
+    [buttons makeObjectsPerformSelector:@selector(removeFromSuperview)];
     for (FGMarkdownLink *link in links) {
         NSRange r = link.range;
         CGRect rect = [self frameOfTextRange:r inTextView:self];
